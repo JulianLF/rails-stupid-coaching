@@ -1,0 +1,13 @@
+<ul>
+  <li>
+    <%= @ask %>
+    <br>
+    - You
+  </li>
+  <li class="answer">
+    <strong><%= @answer %></strong>
+    <br>
+    - Your coach
+  </li>
+  <%= link_to  "Ask a new question", ask_path %>
+</ul>
